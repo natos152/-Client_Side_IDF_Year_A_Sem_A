@@ -1,0 +1,353 @@
+body {
+  direction: rtl;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: auto;
+  overflow-x: hidden;
+  background-color: gainsboro;
+}
+
+#container {
+  width: 100%;
+}
+
+header {
+  background-color: #333;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+header>img {
+  float: right;
+  margin-left: 0.1em;
+  margin-right: 1.1em;
+  margin-top: 0.7em;
+  width: 3.7%;
+}
+
+header>#img3 {
+  float: left;
+  width: 5.5em;
+  margin-top: -100px;
+  margin-left: 1em;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  top: 0px;
+  padding-right: 40px;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  min-width: 100px;
+  background-color: #333;
+  margin: -1.2em -1em 0em 0em;
+}
+
+.dropdown a {
+  display: block;
+  text-align: right;
+}
+
+.dropdown:hover {
+  display: block;
+}
+
+.dropdown2 {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-top: 12px;
+}
+
+.dropdown2:hover .dropdown {
+  display: block;
+}
+
+li {
+  float: right;
+  padding: 11px 0px 11px 0px;
+  font-size: 1.2em;
+}
+
+li>i {
+  color: white;
+  font-size: 1.4em;
+  padding: 5px 20px 0px 0px;
+  margin-top: 7px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  padding: 15px 15px;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+li a:active {
+  background-color: #111;
+}
+
+hr.haki {
+  background-color: #48452A;
+  height: 4px;
+  border: none;
+  width: 16%;
+}
+
+#icons {
+  margin-left: 8%;
+  float: left;
+  font-size: 1.0em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+
+.container {
+  width: 72%;
+  margin-right: 13em;
+  margin-top: 3em;
+}
+
+/* Hide the images by default */
+
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.prev {
+  margin: 18em 12.5em 0em 0em;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Position the "next button" to the right */
+
+.next {
+  margin: 18em 0em 0em 15em;
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+  color: #000;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 5;
+}
+
+/* Container for image text */
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 10px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+
+.column {
+  float: left;
+  width: 14%;
+}
+
+/* Add a transparency effect for thumnbail images */
+
+.demo {
+  opacity: 0.6;
+}
+
+.active, .demo:hover {
+  opacity: 1;
+}
+
+h1 {
+  margin-top: 110px;
+  padding-top: 40px;
+  text-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+  font-size: 2.5em;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  background-color: #111;
+  background-size: 100% 100%;
+  color: white;
+  text-align: center;
+}
+
+footer>#contact>hr.haki {
+  margin-right: 0.2em;
+  width: 8%;
+}
+
+footer>#contact {
+  width: 50%;
+  padding: 1.5em 4em 1.5em 2em;
+  text-align: right;
+}
+
+footer>#contact>h2 {
+  font-size: 2em;
+}
+
+footer>#contact>p {
+  margin-top: 2em;
+  text-align: right;
+}
+
+footer>#contact>#p2 {
+  margin-top: 3em;
+  text-align: center;
+}
+
+footer>#icons2 {
+  width: 30em;
+}
+
+footer>.container {
+  width: 50%;
+}
+
+.container>form>.row>.col-75>h2 {
+  text-align: right;
+}
+
+form {
+  margin: 7em 2em 2em 2em;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  background-color: #111;
+  color: white;
+  font-family: 'NarkisBlockConRegular', sans-serif;
+}
+
+input[type=submit] {
+  background-color: #222;
+  color: white;
+  padding: 0.8em 2em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+  margin-left: 4.2em;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+input[type=submit]:hover {
+  background-color: #333;
+}
+
+.container {
+  padding: 20px;
+}
+
+.col-75 {
+  margin-right: 4.5em;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#coper {
+  padding: 0.02em;
+  color: white;
+  background-color: #333;
+  text-align: center;
+}
+
+.firstsection {
+  text-align: center;
+  color: rgb(11, 11, 90);
+}
+
+hr {
+  background-color: #48452A;
+  height: 5px;
+  width: 8%;
+}
+
+main {
+  background-color: #efefef;
+}
+
+.content {
+  background-color: #fff;
+  margin: 7em 7em 0em 7em;
+  padding: 1.5em;
+}
+
+.insideContent {
+  padding: 10px 20px 10px 20px;
+}

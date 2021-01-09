@@ -1,0 +1,281 @@
+body {
+    direction: rtl;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #015427;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+header>img {
+    float: right;
+    margin-left: 0.5 em;
+    margin-right: 1em;
+    width: 4.6em;
+    margin-top: 1em;
+}
+
+header>#img3 {
+    float: left;
+    width: 5.5em;
+    margin-top: -100px;
+    margin-left: 0.9em;
+}
+
+#icons {
+    margin-left: 8%;
+    float: left;
+    font-size: 1.1em;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    top: 0px;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    background-color: #015427;
+    margin: -1.2em -1em 0em 0em;
+}
+
+.dropdown a {
+    display: block;
+    text-align: right;
+}
+
+.dropdown:hover {
+    display: block;
+}
+
+.dropdown2 {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 12px;
+}
+
+.dropdown2:hover .dropdown {
+    display: block;
+}
+
+li {
+    float: right;
+    padding: 11px 0px 11px 0px;
+    font-size: 1.2em;
+}
+
+li>i {
+    color: white;
+    font-size: 1.4em;
+    padding: 5px 20px 0px 0px;
+    margin-top: 7px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding: 15px 15px;
+}
+
+li a:hover {
+    background-color: rgba(0, 128, 0, 0.801);
+}
+
+li a:active {
+    background-color: #111;
+}
+
+hr.haki {
+    background-color: #48452A;
+    height: 4px;
+    border: none;
+    width: 16%;
+}
+
+iframe {
+    margin-top: 6.5em;
+    width: 100%;
+    height: 500px;
+}
+
+iframe>video {
+    width: 100%;
+}
+
+.content {
+    color: #111;
+    widows: 100%;
+}
+
+.contentImag>img {
+    padding-top: 2em;
+    padding-left: 4em;
+    padding-right: 2em;
+    float: left;
+    width: 40%;
+    margin-bottom: 6em;
+    margin-top: 1.5em;
+}
+
+.content>h1 {
+    text-align: center;
+}
+
+.insideContent>h2 {
+    text-align: right;
+    text-decoration-line: underline;
+}
+
+.insideContent>p {
+    font-size: 17px;
+    padding-left: 2em;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    background-color: #111;
+    background-size: 100% 100%;
+    color: white;
+    text-align: center;
+}
+
+footer>#contact>hr.haki {
+    margin-right: 0.2em;
+    width: 8%;
+}
+
+footer>#contact {
+    width: 50%;
+    padding: 1.5em 4em 1.5em 2em;
+    text-align: right;
+}
+
+footer>#contact>h2 {
+    font-size: 2em;
+}
+
+footer>#contact>p {
+    margin-top: 2em;
+    text-align: right;
+}
+
+footer>#contact>#p2 {
+    margin-top: 3em;
+    text-align: center;
+}
+
+footer>#icons2 {
+    width: 30em;
+}
+
+footer>.container {
+    width: 50%;
+}
+
+.container>form>.row>.col-75>h2 {
+    text-align: right;
+}
+
+form {
+    margin: 7em 2em 2em 2em;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    background-color: #111;
+    color: white;
+    font-family: 'NarkisBlockConRegular', sans-serif;
+}
+
+input[type=submit] {
+    background-color: #222;
+    color: white;
+    padding: 0.8em 2em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    margin-left: 4.2em;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input[type=submit]:hover {
+    background-color: #333;
+}
+
+.container {
+    padding: 20px;
+}
+
+.col-75 {
+    margin-right: 4.5em;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#coper {
+    padding: 0.02em;
+    color: white;
+    background-color: #333;
+    text-align: center;
+}
+
+.firstsection {
+    text-align: center;
+    color: #015427;
+}
+
+hr {
+    background-color: #015427;
+    height: 3px;
+    width: 8%;
+}
+
+main {
+    background-color: #efefef;
+}
+
+.content {
+    background-color: #fff;
+    margin: 7em 7em 0em 7em;
+    padding: 1.5em;
+}
+
+.insideContent {
+    padding: 10px 20px 10px 20px;
+}
+
+#video {
+    margin-top: 2em;
+    margin-right: 2em;
+    width: 450px;
+    height: 270px;
+    float: left;
+}
